@@ -8,8 +8,8 @@
 #define HEATER_PIN 18
 
 
-const char* ssid = "VPG@3";
-const char* password = "vpg@3003";
+const char* ssid = "YOUR_WIFI_SSID";          // set your Wi-Fi name
+const char* password = "YOUR_WIFI_PASSWORD";  // set your Wi-Fi password
 WiFiServer server(80);
 
 DHT dht(DHTPIN, DHTTYPE);
